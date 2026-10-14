@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtuella miljöer
+.venv/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code inställningar
+.vscode/
+
+# Miljövariabler och hemligheter
+.env
+
+# Operativsystem
+.DS_Store
+Thumbs.db
