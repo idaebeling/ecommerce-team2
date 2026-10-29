@@ -5,15 +5,15 @@ def calculate_aov(df):
 def get_order_value_stats(df):
     return df["revenue"].describe()
 
-def revenue_by_category(df):
+
+def revenue_by_group(df, group_column):
     return (
-        df.groupby("category")
-        .agg(total_intäkt=("revenue", "sum"))
+        df.groupby(group_column)["revenue"]
+        .sum()
+        .sort_values(ascending=False)
+        .rename("total_revenue")
         .reset_index()
-        .sort_values("total_intäkt", ascending=False)
-        .reset_index(drop=True)
     )
 
 def top_categories(df, n=3):
-    return revenue_by_category(df).head(n)
-
+    return revenue_by_group(df, "category").head(n)
