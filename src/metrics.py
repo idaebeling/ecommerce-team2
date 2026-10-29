@@ -5,6 +5,7 @@ def calculate_aov(df):
 def get_order_value_stats(df):
     return df["revenue"].describe()
 
+
 def revenue_by_group(df, group_column):
     return (
         df.groupby(group_column)["revenue"]
@@ -13,3 +14,6 @@ def revenue_by_group(df, group_column):
         .rename("total_revenue")
         .reset_index()
     )
+
+def top_categories(df, n=3):
+    return revenue_by_group(df, "category").head(n)
