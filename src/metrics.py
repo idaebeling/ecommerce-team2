@@ -18,9 +18,6 @@ def revenue_by_group(df, group_column):
         .rename("total_revenue")
         .reset_index()
     )
-
-
-
 def revenue_by_category(df):
     return (
         df.groupby("category")
@@ -55,6 +52,3 @@ def revenue_by_month(df):
         .reset_index(drop=True)
     )
 
-                  
-
-                 
