@@ -52,6 +52,11 @@ def revenue_by_city(df):
 def revenue_by_month(df):
     monthly_df = df.copy()
 
+    monthly_df["date"] = pd.to_datetime(
+        monthly_df["date"],
+        errors="coerce"
+    )
+
     monthly_df["month"] = (
         monthly_df["date"].dt.to_period("M").dt.to_timestamp()
     )
@@ -62,4 +67,3 @@ def revenue_by_month(df):
         .sort_values("month")
         .reset_index(drop=True)
     )
-
