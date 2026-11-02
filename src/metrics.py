@@ -18,6 +18,17 @@ def revenue_by_group(df, group_column):
         .rename("total_revenue")
         .reset_index()
     )
+
+def top_categories(df, n=3):
+    return revenue_by_group(df, "category").head(n)
+def total_revenue(df):
+    return df["revenue"].sum()
+
+
+def total_units(df):
+    return df["units"].sum()
+    
+
 def revenue_by_category(df):
     return (
         df.groupby("category")
