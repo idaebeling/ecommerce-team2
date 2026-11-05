@@ -16,4 +16,4 @@ pip install -r requirements.txt
 
 ## Team och arbetssätt
 
-Vi är grupp 2 och består av Ida, Raya och Abdullah. Vi satte gemensamt upp GitHub-repot och projektstrukturen utifrån uppgiftens krav. Vi delade upp arbetet med GitHub Issues och arbetade i separata branches med pull requests. Alla tre granskade ändringarna, bidrog med synpunkter och hjälptes åt att förbättra analysen.
+Vi är grupp 2 och består av Ida, Raya och Abdullah. Vi satte gemensamt upp GitHub-repot och projektstrukturen utifrån uppgiftens rekommendationer. Vi delade upp arbetet med GitHub Issues och arbetade i separata branches med pull requests. Alla tre granskade ändringarna, bidrog med synpunkter och hjälptes åt att förbättra analysen.
