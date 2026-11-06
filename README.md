@@ -5,6 +5,7 @@
 Vi har analyserat försäljningsdata från en fiktiv e-handelsplattform. Analysen undersöker intäkter per kategori och stad, försäljning över tid, genomsnittligt ordervärde och möjliga avvikelser. Resultat och rekommendationer finns i `notebooks/report.ipynb.`
 
 Så kör du projektet
+
 Projektet använder Python 3.14.7
 
 Installera paketen från projektmappen:
