@@ -5,6 +5,7 @@
 Vi har analyserat försäljningsdata från en fiktiv e-handelsplattform. Analysen undersöker intäkter per kategori och stad, försäljning över tid, genomsnittligt ordervärde och möjliga avvikelser. Resultat och rekommendationer finns i `notebooks/report.ipynb.`
 
 Så kör du projektet
+Projektet använder Python 3.14.7
 
 Installera paketen från projektmappen:
 
@@ -16,4 +17,4 @@ pip install -r requirements.txt
 
 ## Team och arbetssätt
 
-Vi är grupp 2 och består av Ida, Raya och Abdullah. Vi satte gemensamt upp GitHub-repot och projektstrukturen utifrån uppgiftens rekommendationer. Vi delade upp arbetet med GitHub Issues och arbetade i separata branches med pull requests. Alla tre granskade ändringarna, bidrog med synpunkter och hjälptes åt att förbättra analysen.
+Vi är grupp 2 och består av Ida Ebeling, Raya Altatabulsi och Abdullah Abrar. Vi satte gemensamt upp GitHub-repot och projektstrukturen utifrån uppgiftens rekommendationer. Vi delade upp arbetet med GitHub Issues och arbetade i separata branches med pull requests. Alla tre granskade ändringarna, bidrog med synpunkter och hjälptes åt att förbättra analysen.
